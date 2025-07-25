@@ -264,10 +264,7 @@ const App = () => {
               </a>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/in/tajul-islam-85653534/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/tajulbappy/" target="_blank">
                 LinkedIn
               </a>
             </li>
