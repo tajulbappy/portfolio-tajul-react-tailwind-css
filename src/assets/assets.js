@@ -1,5 +1,5 @@
 // @ts-nocheck
-import logo from "../assets/images/t3.jpg";
+import logo from "../assets/images/logo.jpg";
 import arrow_icon from "../assets/images/arrow-icon.png";
 import moon_icon from "../assets/images/moon_icon.png";
 import sun_icon from "../assets/images/sun_icon.png";
