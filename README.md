@@ -4,7 +4,7 @@ A modern and responsive **developer portfolio** built using **React.js** and **T
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio](https://portfolio-tajulbappy.netlify.app)
+🔗 [View Portfolio](https://tajulbappy.netlify.app/)
 
 ## 📸 Preview
 
@@ -28,7 +28,7 @@ A modern and responsive **developer portfolio** built using **React.js** and **T
 
 Author
 Md. Tajul Islam
-🌐 [Portfolio Website](https://portfolio-tajulbappy.netlify.app)
+🌐 [Portfolio Website](https://tajulbappy.netlify.app/)
 📧 bappy042@gmail.com
 👨‍💻 [GitHub](https://github.com/tajulbappy)
 
