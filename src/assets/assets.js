@@ -36,10 +36,9 @@ import webdev_icon from "../assets/images/webdev.png";
 import optimizer_icon from "../assets/images/optimizer.png";
 import api_icon from "../assets/images/api.png";
 import bug_icon from "../assets/images/bug.png";
-import work_1 from "../assets/images/nn/ecom.png";
-import work_2 from "../assets/images/nn/edu.png";
-import work_3 from "../assets/images/todo_app.png";
-import work_4 from "../assets/images/counter_app.png";
+import work_1 from "../assets/images/ecommerce.png";
+import work_2 from "../assets/images/education.png";
+import work_3 from "../assets/images/itfirm.png";
 import send_icon from "../assets/images/send-icon.png";
 import mail_icon from "../assets/images/mail_icon.png";
 import mail_icon_dark from "../assets/images/mail_icon_dark.png";
@@ -86,7 +85,7 @@ export const assets = {
   work_1,
   work_2,
   work_3,
-  work_4,
+
   mail_icon,
   mail_icon_dark,
 };
