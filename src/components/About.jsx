@@ -77,7 +77,7 @@ const About = () => {
                 Projects
               </h3>
               <p className="text-gray-600 text-sm dark:text-white leading-6>BSC in Computer Science & Engineering at Daffodil International University">
-                Build more than 7 projects on E-commerce,User management app,
+                Build more than 30 projects on E-commerce,User management app,
                 Portfolio/Corporate, Landing pages, Educational website etc.
               </p>
             </li>

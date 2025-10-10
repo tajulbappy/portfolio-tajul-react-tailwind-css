@@ -39,6 +39,11 @@ import bug_icon from "../assets/images/bug.png";
 import work_1 from "../assets/images/ecommerce.png";
 import work_2 from "../assets/images/education.png";
 import work_3 from "../assets/images/itfirm.png";
+
+import work_4 from "../assets/images/agency.png";
+import work_5 from "../assets/images/tech-consultant.png";
+import work_6 from "../assets/images/restaurant.png";
+
 import send_icon from "../assets/images/send-icon.png";
 import mail_icon from "../assets/images/mail_icon.png";
 import mail_icon_dark from "../assets/images/mail_icon_dark.png";
@@ -85,6 +90,9 @@ export const assets = {
   work_1,
   work_2,
   work_3,
+  work_4,
+  work_5,
+  work_6,
 
   mail_icon,
   mail_icon_dark,
