@@ -1,6 +1,20 @@
 import React from "react";
 import { assets } from "../assets/assets";
 
+const myTechStack = [
+  "React.js",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "PostgreSQL",
+  "TypeScript",
+  "REST API",
+  "JWT Auth",
+  "Tailwind CSS",
+  "Bootstrap",
+];
+
 const AppHeader = () => {
   return (
     <div
@@ -16,30 +30,19 @@ const AppHeader = () => {
         Hi! I'm Tajul Islam{" "}
         <img className="w-6" src={assets.hand_icon} alt="hand-icon" />
       </h3>
-      <h1 className="text-3xl sm:text-5xl  font-Ovo">
-        Front-End React Developer based in Dhaka.
+      <h1 className="text-3xl sm:text-5xl font-Ovo">
+        MERN Stack Developer building scalable full-stack web applications
       </h1>
 
       <p className="max-w-2xl mx-auto font-Ovo leading-8">
-        I am a Front-End React Developer from Dhaka, Bangladesh, with over 2 years of experience
-        building responsive, fast and modern websites for startups and
-        enterprises.
+        I develop high-performance full-stack applications using MongoDB,
+        Express, React, and Node.js. I focus on building scalable, secure, and
+        user-friendly solutions for real-world business needs.
       </p>
 
       {/* Tech Stack Badges */}
       <div className="flex flex-wrap justify-center gap-2 mt-2">
-        {[
-          "HTML",
-          "CSS",
-          "JavaScript (ES6+)",
-          "React.js",
-          "TypeScript",
-          "Tailwind CSS",
-          "Bootstrap",
-          "Sass",
-          "Git & GitHub",
-          "API Integration",
-        ].map((tech, index) => (
+        {myTechStack.map((tech, index) => (
           <span
             key={index}
             className="text-sm px-3 py-1 bg-gray-200 dark:bg-darkTheme text-gray-800 dark:text-gray-200 rounded-full border border-gray-300 dark:border-gray-400"

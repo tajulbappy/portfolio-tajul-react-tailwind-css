@@ -15,10 +15,10 @@ const AppServices = () => {
         <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
           <img className="w-10" src={assets.webdev_icon} alt="webdev-icon" />
           <h3 className="text-lg my-4 text-gray-700 dark:text-white">
-            Frontend Development
+            MERN Stack Development
           </h3>
           <p className="text-sm text-gray-600 leading-5 dark:text-white">
-            Responsive websites using React, Tailwind, Bootstrap
+            Full-stack applications using MongoDB, Express, React and Node.js
           </p>
           <p className="text-sm text-gray-600 leading-5 dark:text-white">
             High-conversion landing pages with modern UI/UX
@@ -47,10 +47,11 @@ const AppServices = () => {
             alt="optimizer-icon"
           />
           <h3 className="text-lg my-4 text-gray-700 dark:text-white">
-            Website Optimization
+            Backend API Development
           </h3>
           <p className="text-sm text-gray-600 leading-5 dark:text-white">
-            Speed, SEO basics and accessibility improvements
+            Secure REST APIs with authentication (JWT), database integration,
+            and scalability
           </p>
           <a
             className="flex items-center gap-2 text-sm mt-5 dark:text-white"
@@ -72,10 +73,11 @@ const AppServices = () => {
         <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
           <img className="w-10" src={assets.api_icon} alt="api-icon" />
           <h3 className="text-lg my-4 text-gray-700 dark:text-white">
-            REST API Integration
+            Database Design
           </h3>
           <p className="text-sm text-gray-600 leading-5 dark:text-white">
-            Fetch and display dynamic data using Axios or Fetch API
+            MongoDB & PostgreSQL schema design, optimization, and performance
+            tuning
           </p>
           <a
             className="flex items-center gap-2 text-sm mt-5 dark:text-white"
@@ -98,10 +100,10 @@ const AppServices = () => {
         <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
           <img className="w-10" src={assets.bug_icon} alt="bug-icon" />
           <h3 className="text-lg my-4 text-gray-700 dark:text-white">
-            Web Maintenance & Bug Fixing
+            Deployment & Hosting
           </h3>
           <p className="text-sm text-gray-600 leading-5 dark:text-white">
-            Fix layout, responsiveness, or JavaScript bugs
+            Deploy applications using Vercel, Netlify, Render, and VPS servers
           </p>
           <a
             className="flex items-center gap-2 text-sm mt-5 dark:text-white"

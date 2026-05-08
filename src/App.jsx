@@ -10,7 +10,7 @@ import { ToastContainer } from "react-toastify";
 const App = () => {
   const [visible, setVisible] = useState(false);
   const [scrollDown, setScrollDown] = useState(false);
-  const [darkTheme, setDarkTheme] = useState(false);
+  const [darkTheme, setDarkTheme] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {

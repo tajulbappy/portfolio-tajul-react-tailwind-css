@@ -33,10 +33,11 @@ const About = () => {
         </div>
         <div className="flex-1">
           <p className="mb-10 max-w-2xl font-Ovo leading-8">
-            I am an experienced Frontend Developer with over two years of
-            professional expertise in the field. Throughout my career, I have
-            had the privilege of collaborating with prestigious organizations,
-            contributing to their success and growth.
+            I am a MERN Stack Developer with experience building full-stack web
+            applications. I specialize in developing scalable backend systems,
+            REST APIs, and modern frontend interfaces. I focus on performance,
+            security, and clean architecture to deliver production-ready
+            solutions.
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50">
@@ -54,8 +55,8 @@ const About = () => {
                 Languages
               </h3>
               <p className="text-gray-600 text-sm dark:text-white leading-6">
-                HTML, CSS, JavaScript (ES6+), React Js, TypeScript, Tailwind
-                CSS, Bootstrap, Sass.
+                JavaScript (ES6+), TypeScript, React.js, Node.js, Express.js,
+                MongoDB, PostgreSQL
               </p>
             </li>
             <li
@@ -96,8 +97,8 @@ const About = () => {
                 Education
               </h3>
               <p className="text-gray-600 text-sm dark:text-white leading-6">
-                B.Sc. in Computer Science & Engineering at Daffodil
-                International University
+                BSC in Computer Science & Engineering at Daffodil
+                International University.
               </p>
             </li>
           </ul>
