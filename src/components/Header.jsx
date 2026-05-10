@@ -30,7 +30,7 @@ const AppHeader = () => {
         Hi! I'm Tajul Islam{" "}
         <img className="w-6" src={assets.hand_icon} alt="hand-icon" />
       </h3>
-      <h1 className="text-3xl sm:text-5xl font-Ovo">
+      <h1 className="text-3xl sm:text-4xl font-Ovo">
         MERN Stack Developer building scalable full-stack web applications
       </h1>
 

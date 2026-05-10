@@ -20,12 +20,12 @@ const AppWork = () => {
           <a href="https://forever-fashion.netlify.app/" target="_blank">
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">E-commerce platform</h2>
+                <h2 className="font-semibold">Full-Stack E-commerce</h2>
                 <p className="text-xs text-gray-700">
-                  React JS, Tailwind CSS, API Integration
+                  MERN Stack | JWT Auth | MongoDB | Payment Integration
                 </p>
               </div>
-              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-orange-400 transition">
+              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
                 Live Demo
               </div>
             </div>
@@ -38,12 +38,14 @@ const AppWork = () => {
           <a href="https://educational-website25.netlify.app/" target="_blank">
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">Educational website</h2>
+                <h2 className="font-semibold">
+                  Learning Management System(LMS)
+                </h2>
                 <p className="text-xs text-gray-700">
-                  React JS, Bootstrap, Routing
+                  React JS | Routing | Bootstrap | Clerk Auth
                 </p>
               </div>
-              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-orange-400 transition">
+              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
                 Live Demo
               </div>
             </div>
@@ -56,12 +58,12 @@ const AppWork = () => {
           <a href="https://innovativesolutions-bd.com/" target="_blank">
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">IT Business Website</h2>
+                <h2 className="font-semibold">IT Consultancy Firm</h2>
                 <p className="text-xs text-gray-700">
-                  React Hooks, Context API, State management
+                  React Hooks | Context API | State management
                 </p>
               </div>
-              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-orange-400 transition">
+              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
                 Live Demo
               </div>
             </div>
@@ -76,10 +78,10 @@ const AppWork = () => {
               <div>
                 <h2 className="font-semibold">Digital Agency Website</h2>
                 <p className="text-xs text-gray-700">
-                  Tailwind CSS, Framer Motion, Dark/Light Theme
+                  Tailwind CSS | Framer Motion | Dark/Light Theme
                 </p>
               </div>
-              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-orange-400 transition">
+              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
                 Live Demo
               </div>
             </div>
@@ -92,12 +94,12 @@ const AppWork = () => {
           <a href="https://infosystechltd.com/" target="_blank">
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">Technology Consultancy Site</h2>
+                <h2 className="font-semibold">Technology Consultancy Firm</h2>
                 <p className="text-xs text-gray-700">
-                  React JS, Tailwind CSS, Context API,JS(ES6)
+                  React JS | Tailwind CSS | Context API | JS(ES6)
                 </p>
               </div>
-              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-orange-400 transition">
+              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
                 Live Demo
               </div>
             </div>
@@ -112,10 +114,10 @@ const AppWork = () => {
               <div>
                 <h2 className="font-semibold">Restaurant Website</h2>
                 <p className="text-xs text-gray-700">
-                  React JS, Bootstrap, Multi-device responsive
+                  React JS | Bootstrap | Multi-device responsive
                 </p>
               </div>
-              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-orange-400 transition">
+              <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
                 Live Demo
               </div>
             </div>
