@@ -19,7 +19,7 @@ const AppHeader = () => {
   return (
     <div
       id="top"
-      className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 mt-4 md:mt-20 md:scroll-mt-20"
+      className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 mt-20 md:mt-10 md:scroll-mt-20"
     >
       <img
         className="w-36 h-36 rounded-full"
