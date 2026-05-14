@@ -1,34 +1,50 @@
+// @ts-nocheck
 import React from "react";
 import { assets } from "../assets/assets";
 import { toast } from "react-toastify";
 
 const AppContact = () => {
-  const toastNoity = () => {
-    toast("Successfully Submitted !!!");
-  };
-
   const onSubmit = async (event) => {
     event.preventDefault();
 
     const formData = new FormData(event.target);
+
+    const name = formData.get("name")?.trim();
+    const email = formData.get("email")?.trim();
+    const message = formData.get("message")?.trim();
+
+    // Manual validation
+    if (!name || !email || !message) {
+      toast.error("Please fill out all fields!");
+      return;
+    }
 
     formData.append("access_key", "041eef1f-4652-49d5-bd79-ae2aa7bcfeb0");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: json,
-    }).then((res) => res.json());
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      });
 
-    if (res.success) {
-      event.target.reset();
-      console.log("Success", res);
+      const data = await res.json();
+
+      if (data.success) {
+        toast.success("Message sent successfully!");
+        event.target.reset();
+      } else {
+        toast.error("Failed to send message!");
+      }
+    } catch (error) {
+      toast.error("Something went wrong!");
+      console.log(error);
     }
   };
 
@@ -68,12 +84,11 @@ const AppContact = () => {
         ></textarea>
 
         <button
-          onClick={toastNoity}
           type="submit"
           className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 cursor-pointer
-        dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover"
+  dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover"
         >
-          Submit now
+          Submit
           <img
             className="w-4"
             src={assets.arrow_right_white}

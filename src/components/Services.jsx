@@ -42,11 +42,7 @@ const AppServices = () => {
           </a>
         </div>
         <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
-          <img
-            className="w-10"
-            src={assets.optimizer_icon}
-            alt="optimizer-icon"
-          />
+          <img className="w-10" src={assets.api_icon} alt="optimizer-icon" />
           <h3 className="text-lg my-4 text-gray-700 dark:text-white">
             Backend API Development
           </h3>
@@ -72,7 +68,7 @@ const AppServices = () => {
           </a>
         </div>
         <div className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
-          <img className="w-10" src={assets.api_icon} alt="api-icon" />
+          <img className="w-10" src={assets.optimizer_icon} alt="api-icon" />
           <h3 className="text-lg my-4 text-gray-700 dark:text-white">
             Database Design
           </h3>

@@ -1,5 +1,5 @@
 // @ts-nocheck
-import logo from "../assets/images/logo.jpg";
+import logo from "../assets/images/logo.png";
 import arrow_icon from "../assets/images/arrow-icon.png";
 import moon_icon from "../assets/images/moon_icon.png";
 import sun_icon from "../assets/images/sun_icon.png";
@@ -35,7 +35,7 @@ import dev_icon from "../assets/images/dev1-icon.jpg";
 import webdev_icon from "../assets/images/webdev.png";
 import optimizer_icon from "../assets/images/optimizer.png";
 import api_icon from "../assets/images/api.png";
-import bug_icon from "../assets/images/bug.png";
+import bug_icon from "../assets/images/web-hosting.png";
 import work_1 from "../assets/images/ecommerce.png";
 import work_2 from "../assets/images/education.png";
 import work_3 from "../assets/images/itfirm.png";
