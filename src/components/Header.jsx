@@ -64,10 +64,10 @@ const AppHeader = () => {
         </a>
 
         <a
-          href={assets.resume}
+          href={assets.resum} // will be "resume"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-8 py-3 border border-gray-500 rounded-full flex items-center gap-2 bg-white dark:text-black"
+          className="px-8 py-3 border border-gray-500 rounded-full flex items-center gap-2 bg-white dark:text-black cursor-pointer"
         >
           my resume
           <img className="w-4" src={assets.download_icon} alt="right-arrow" />

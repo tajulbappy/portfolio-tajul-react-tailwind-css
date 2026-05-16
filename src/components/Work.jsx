@@ -12,17 +12,21 @@ const AppWork = () => {
         projects showcasing my expertise in building modern web applications and
         solving complex problems.
       </p>
-      <div className="grid grid-cols-auto sm:grid-cols-3 my-10 gap-6 dark:text-black">
+      <div className="grid grid-cols-auto sm:grid-cols-2 md:grid-cols-3 my-10 gap-6 dark:text-black">
         <div
-          className=" aspect-square bg-no-repeat bg-cover bg-center  border rounded-lg relative group"
+          className="aspect-[800/750] bg-no-repeat bg-cover border rounded-lg relative group"
           style={{ backgroundImage: `url(${assets.work_1})` }}
         >
-          <a href="https://forever-fashion.netlify.app/" target="_blank">
+          <a
+            href="https://forever-fashion.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">Full-Stack E-commerce</h2>
+                <h2 className="text-blue-600">E-commerce Platform</h2>
                 <p className="text-xs text-gray-700">
-                  MERN Stack | JWT Auth | MongoDB | Payment Integration
+                  MERN | JWT | MongoDB | Payment Integration
                 </p>
               </div>
               <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
@@ -32,17 +36,19 @@ const AppWork = () => {
           </a>
         </div>
         <div
-          className=" aspect-square bg-no-repeat bg-cover bg-center  border rounded-lg relative group"
+          className="aspect-[800/750] bg-no-repeat bg-cover border  rounded-lg relative group"
           style={{ backgroundImage: `url(${assets.work_2})` }}
         >
-          <a href="https://educational-website25.netlify.app/" target="_blank">
+          <a
+            href="https://lms-web-app-theta.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">
-                  Learning Management System(LMS)
-                </h2>
+                <h2 className="text-blue-600">LMS Platform</h2>
                 <p className="text-xs text-gray-700">
-                  React JS | Routing | Bootstrap | Clerk Auth
+                  MERN | Dashboard | Rest API | Payment
                 </p>
               </div>
               <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
@@ -52,13 +58,17 @@ const AppWork = () => {
           </a>
         </div>
         <div
-          className=" aspect-square bg-no-repeat bg-cover bg-center  border rounded-lg relative group"
+          className="aspect-[800/750] bg-no-repeat bg-cover border rounded-lg relative group"
           style={{ backgroundImage: `url(${assets.work_3})` }}
         >
-          <a href="https://innovativesolutions-bd.com/" target="_blank">
+          <a
+            href="https://innovativesolutions-bd.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">IT Consultancy Firm</h2>
+                <h2 className="text-blue-600">IT Consultancy Firm</h2>
                 <p className="text-xs text-gray-700">
                   React Hooks | Context API | State management
                 </p>
@@ -70,15 +80,19 @@ const AppWork = () => {
           </a>
         </div>
         <div
-          className=" aspect-square bg-no-repeat bg-cover bg-center  border rounded-lg relative group"
+          className="aspect-[800/750] bg-no-repeat bg-cover border rounded-lg relative group"
           style={{ backgroundImage: `url(${assets.work_4})` }}
         >
-          <a href="https://myagency2025.netlify.app/" target="_blank">
+          <a
+            href="https://myagency2025.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">Digital Agency Website</h2>
+                <h2 className="text-blue-600">Digital Agency</h2>
                 <p className="text-xs text-gray-700">
-                  Tailwind CSS | Framer Motion | Dark/Light Theme
+                  Tailwind CSS | Framer Motion | D/L Theme
                 </p>
               </div>
               <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
@@ -88,15 +102,19 @@ const AppWork = () => {
           </a>
         </div>
         <div
-          className=" aspect-square bg-no-repeat bg-cover bg-center  border rounded-lg relative group"
+          className="aspect-[800/750] bg-no-repeat bg-cover border rounded-lg relative group"
           style={{ backgroundImage: `url(${assets.work_5})` }}
         >
-          <a href="https://infosystechltd.com/" target="_blank">
+          <a
+            href="https://groceryshop-bdapp.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">Technology Consultancy Firm</h2>
+                <h2 className="text-blue-600">Grocery Shopping App</h2>
                 <p className="text-xs text-gray-700">
-                  React JS | Tailwind CSS | Context API | JS(ES6)
+                  Admin Panel | Tailwind CSS | MERN | JS(ES6)
                 </p>
               </div>
               <div className="text-center text-xs text-blue-700 border rounded-full border-black w-1/5 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-darkHover transition">
@@ -106,13 +124,17 @@ const AppWork = () => {
           </a>
         </div>
         <div
-          className=" aspect-square bg-no-repeat bg-cover bg-center  border rounded-lg relative group"
+          className="aspect-[800/750] bg-no-repeat bg-cover border rounded-lg relative group"
           style={{ backgroundImage: `url(${assets.work_6})` }}
         >
-          <a href="https://restaurant-website25.netlify.app/" target="_blank">
+          <a
+            href="https://restaurant-website25.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="bg-gray-200 w-12/13 rounded-md absolute bottom-2 left-1/2 -translate-x-1/2 duration-500 p-2 px-3 flex items-center justify-between group-hover:bottom-5">
               <div>
-                <h2 className="font-semibold">Restaurant Website</h2>
+                <h2 className="text-blue-600">Food Ordering Website</h2>
                 <p className="text-xs text-gray-700">
                   React JS | Bootstrap | Multi-device responsive
                 </p>
@@ -130,6 +152,7 @@ const AppWork = () => {
         dark:text-white dark:border-white dark:hover:bg-darkHover "
         href="https://github.com/tajulbappy?tab=repositories"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Show more
         <img
